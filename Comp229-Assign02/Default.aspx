@@ -1,42 +1,36 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Comp229_Assign02._Default" %>
-
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
-
+         <div class="jumbotron">
+        <img src="Models/Slide1.JPG" /><br />
+             <p class="lead" style="font-family: Arial, Helvetica, sans-serif; font-size: medium; font-weight: normal"> Customer satisfaction is more important in this vehical maintenance business.Take a customer satisfaction survey and help to make this service more efficient.</p>
+        <p><a href="http://localhost:64776/Default" class="btn btn-primary btn-lg" style="font-family: 'Arial Narrow'; font-size: medium; font-weight: bold; font-style: italic; font-variant: inherit; text-transform: inherit; color: #808000; text-decoration: blink; background-color: #C0C0C0;">Take a Survey &raquo;</a></p>
+        </div>
+    <!-- //designed own slide with an image and used it in this link.// -->
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
+            <h2 style="background-image: none; background-color: #C0C0C0; color: #808000;">Home </h2>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
+                Survey is the cruitial part in todays business.</p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                <a class="link.ref" href="http://go.microsoft.com/fwlink/?LinkId=301948" style="color: #808000">Click here &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Get more libraries</h2>
+            <h2 style="color: #808000; background-color: #C0C0C0;">Take a Survey</h2>
             <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
+                You can give your survey here and we can improve the efficiency of the service.</p>
             <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                 <a class="link.ref" href="http://go.microsoft.com/fwlink/?LinkId=301949" style="color: #808000; text-decoration: blink">Take a survey &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Web Hosting</h2>
             <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
+                &nbsp;</p>
         </div>
     </div>
-
-</asp:Content>
+     <!-- //microsoft privacy statement is used in this link.// -->
+    <div>
+              <a href="https://privacy.microsoft.com/en-us/privacystatement" />
+            </div>
+                                                        </a>
+                                                        </asp:Content>
