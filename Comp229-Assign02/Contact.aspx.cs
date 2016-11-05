@@ -11,9 +11,9 @@ namespace Comp229_Assign02
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["username"] = "data to store";
-            string username = Session["username"].ToString();
-        
+            Session["email"] = "email";
+            string email = Session["email"].ToString();         
+            label.Text = (string)Session["email"];
         int postbacks = 0;
             if (Request.Cookies["number"] != null)
             {
@@ -22,5 +22,5 @@ namespace Comp229_Assign02
                }
             }
         }
-    }
-}
+    } 
+
