@@ -5,9 +5,10 @@
          <p> Hey Thank You for taking the survey.See you soon</p>
          <h3> Have a nice day</h3>
     <asp:Label id="label" runat="server" />
-    <address>
+        <address>
         <strong>Queries:</strong>   <a href="mailto:queries@example.com">Queries@example.com</a><br />
              </address>
-        <asp: href="http://localhost:64776/Default" Text="Submit"class="btn btn-primary btn-lg" ></asp:>
+    <!--microsoft official page is used-->
+        <a href="https://www.microsoft.com/en-ca/" class="btn btn-primary btn-lg" ></a>
        
 </asp:Content>

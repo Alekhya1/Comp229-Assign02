@@ -12,7 +12,7 @@
             <p>
                 Survey is the cruitial part in todays business.</p>
             <p>
-                <a class="link.ref" href="http://go.microsoft.com/fwlink/?LinkId=301948" style="color: #808000">Click here &raquo;</a>
+                <a class="link.ref" href="http://localhost:64939/About" style="color: #808000">Click here &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -20,7 +20,7 @@
             <p>
                 You can give your survey here and we can improve the efficiency of the service.</p>
             <p>
-                 <a class="link.ref" href="http://go.microsoft.com/fwlink/?LinkId=301949" style="color: #808000; text-decoration: blink">Take a survey &raquo;</a>
+                 <a class="link.ref" href="http://localhost:64939/About" style="color: #808000; text-decoration: blink">Take a survey &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">

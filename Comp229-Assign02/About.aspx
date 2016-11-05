@@ -43,14 +43,14 @@
     </div>
     <div>
     <h1>Enter your email id</h1>
-         <asp:TextBox ID="emailid" runat="server" />
+                 <asp:TextBox ID="emailid" runat="server" />
          <asp:RegularExpressionValidator ID="validatorid" runat="server" ControlToValidate="emailid" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ErrorMessage="reagular expression is missing" BackColor="#FFFF99" BorderColor="#FF6600" ForeColor="#CC0000"/>
+    <asp:Label id="label" runat="server" />    
     </div>
         <div>
-            <p>
-                <input type="submit" Text="Submit" runat="server" OnClick="Submit_Click">
-                    
-                 </p>
+            <p> 
+                 <input type="submit" Text="Submit" runat="server" OnClick="Submit_Click">
+                         </p>
         </div>
         <!--microsoft privacy statement is used-->
         <div>

@@ -13,7 +13,7 @@ namespace Comp229_Assign02
         {
             Session["email"] = "email";
             string email = Session["email"].ToString();         
-            label.Text = (string)Session["email"];
+            label.ID = (string)Session["email"];
         int postbacks = 0;
             if (Request.Cookies["number"] != null)
             {
