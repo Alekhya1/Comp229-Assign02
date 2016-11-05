@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Take Survey" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="Comp229_Assign02.About" %>
+﻿<%@ Page Title="Take Survey" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" ViewStateEncryptionMode="Always" Inherits="Comp229_Assign02.About" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
         <h3 style="color: #808000; background-color: #C0C0C0">Vehicle maintainence Survey.</h3>
@@ -8,9 +8,9 @@
             ErrorMessage="Username is required" SetFocusOnError="true" BackColor="#FFFF99" BorderColor="#FF6600" ForeColor="#CC0000"/>
     </p><br />
     <p>Password:
-        <asp:TextBox id="TextBox2" TextMode="Password" runat="server"/>
+        <asp:TextBox id="TextBox2" placeholder="" TextMode="Password" runat="server"/>
              Re-type Password:
-        <asp:TextBox ID="TextBox3" textMode="Password" runat="server" />
+        <asp:TextBox ID="TextBox3" placeholder="" textMode="Password" runat="server" />
         <asp:CompareValidator ID="compareValidate1" runat="server" ControlToValidate="textBox3" ControlToCompare="textBox2"
             ErrorMessage="Password is not matched" SetFocusOnError="true" BackColor="#FFFF99" BorderColor="#FF6600" ForeColor="#CC0000"/>
     </p><br />

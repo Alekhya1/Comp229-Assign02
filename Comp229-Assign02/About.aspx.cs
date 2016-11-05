@@ -19,6 +19,13 @@ namespace Comp229_Assign02
                 Response.Redirect("Contact.Aspx");
             }
 
+            int postbacks = 0;
+            if (Request.Cookies["number"]!=null)
+            {
+                postbacks = Convert.ToInt32(Request.Cookies["number"].Value) + 1;
+                Response.Cookies["number"].Value = postbacks.ToString();
+            }
+
             //
 
         }
