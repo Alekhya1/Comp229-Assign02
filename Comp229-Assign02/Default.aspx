@@ -12,7 +12,7 @@
             <p>
                 Survey is the cruitial part in todays business.</p>
             <p>
-                <a class="link.ref" href="http://localhost:64939/About" style="color: #808000">Click here &raquo;</a>
+                <a class="link.ref" href="http://localhost:64939" style="color: #808000">Click here &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">
